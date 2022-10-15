@@ -149,7 +149,7 @@ console.log(num3)
 
 // task 10
 // 
-let strIndex = Javascript;
+let strIndex = 'Javascript';
 console.log(strIndex.charAt(Math.floor(Math.random() * 10)))
 
 // task 11
