@@ -104,32 +104,45 @@ console.log(challenge.repeat(2))
 //Exercise two
 
 //task 1
+// printing to the console
 console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help one another.");
 
 //task2
+// printing to the console use escape characters
 console.log("Love is not patronizing and charity isn\'t about pity, it is about love. Charity and love are the same -- with charity you give love, so don\'t just give money but reach out your hand instead.");
 
 //task 3
+// checking if two numbers are equal
 console.log("10" == 10)
 
 //task 4
+// checking if two numbers are equal
 console.log(Math.round(parseFloat("9.8")) == 10);
 
 //task 5
+// checking if a string contains "on"
 console.log('python'.includes("on"))
 console.log('jargon'.includes("on"));
+
 //task 6
+// checking if a word is in a string
 let isJargonThere = "I hope this course is not full of jargon";
 console.log(isJargonThere.includes("jargon"))
+
 // task 7
+// generating random number from 0 to 100
 let num1 = Math.floor(Math.random() * 101);
 
 console.log(num1)
+
 // task 8
+// generating a random number from 50 to 100
 let num2 = Math.floor(Math.random() * (51) + 50);
 
 console.log(num2)
+
 // task 9
+// generating random number from 0 to 255
 let num3 = Math.floor(Math.random() * 256);
 
 console.log(num3)
@@ -137,12 +150,13 @@ console.log(num3)
 // task 10
 
 // task 11
-let useEscapeCharacter =
-  " 1 1 1 1 1 \n 2 1 2 4 8 \n 3 1 3 9 27 \n 4 1 4 16 64 \n 5 1 5 25 125";
+// printing to console and escape character to move to next line
+let useEscapeCharacter = " 1 1 1 1 1 \n 2 1 2 4 8 \n 3 1 3 9 27 \n 4 1 4 16 64 \n 5 1 5 25 125";
 
 console.log(useEscapeCharacter);
-// task 12
 
+// task 12
+//slicing out the string "because because because" from the original string
 let sliceOut = "You cannot end a sentence with because because because is a conjunction";
 
 console.log(sliceOut.substr(31, 23 ))
