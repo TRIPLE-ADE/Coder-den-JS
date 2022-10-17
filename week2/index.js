@@ -180,14 +180,14 @@ console.log(matchBecause.match(/because/gi))
 // task 3
 // 
 const sentence = "%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching";
-console.log(sentence.replace(/%/gi));
+console.log(sentence.replace(/[%&$@#]/gi, ''));
 
 // task 4
 // calculate the total income from the string
-
-let monthlyIncome = 5000;
-let annualBonus = 10000;
-let coursesPerMonth = 15000;
+let message = 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
+let monthlyIncome = Number(message.slice(9, 13) * 12);
+let annualBonus = Number(message.slice(42, 47));
+let coursesPerMonth = Number(message.slice(67, 72) * 12);
 
 console.log(monthlyIncome + annualBonus + coursesPerMonth + " euro");
 
