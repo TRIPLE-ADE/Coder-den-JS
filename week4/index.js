@@ -1,22 +1,22 @@
 //Exercise one
 //task1
-//using prompt to input their age and check if they are old enough or not
-// let userAge = prompt('Enter your Age')
+// using prompt to input their age and check if they are old enough or not
+let userAge = prompt('Enter your Age')
 
-// if (userAge >= 18) {
-//     console.log(`You are ${userAge}. You are old enough to drive`)
-// } else { console.log(`You left with ${18 - userAge} years to drive.`) }
+if (userAge >= 18) {
+    console.log(`You are ${userAge}. You are old enough to drive`)
+} else { console.log(`You left with ${18 - userAge} years to drive.`) }
 
 //task 2
 // using user Age and compare it with my Age
-// let myAge = 20;
-// let yourAge = prompt('Enter your Age')
+let myAge = 20;
+let yourAge = prompt('Enter your Age')
 
-// if (myAge > yourAge) {
-//     console.log(`I am ${myAge - yourAge} years older than you`)
-// } else {
-//     console.log(`you are ${yourAge - myAge} years older than you`);
-// }
+if (myAge > yourAge) {
+    console.log(`I am ${myAge - yourAge} years older than you`)
+} else {
+    console.log(`you are ${yourAge - myAge} years older than you`);
+}
 
 
 //task 3
@@ -63,17 +63,17 @@ if (studentScore >= 80 && studentScore <= 100) {
 
 //task two
 // Check if the season is Autumn, Winter, Spring or Summer
-// let month = Prompt('Enter a month')
+let month = Prompt('Enter a month')
 
-// if (month == "september" || month == "october" || month == "november") {
-//   console.log("the season is Autumn");
-// } else if (month == "december" || month == "january" || month == "february") {
-//   console.log("the season is Winter");
-// } else if (month == 'march' || month == 'april' || month == 'may') {
-//      console.log("the season is Spring");
-// } else if (month == 'june' || month == 'july'|| month == 'august') {
-//     console.log("the season is Summer");
-// }
+if (month == "september" || month == "october" || month == "november") {
+  console.log("the season is Autumn");
+} else if (month == "december" || month == "january" || month == "february") {
+  console.log("the season is Winter");
+} else if (month == 'march' || month == 'april' || month == 'may') {
+     console.log("the season is Spring");
+} else if (month == 'june' || month == 'july'|| month == 'august') {
+    console.log("the season is Summer");
+}
 
 
 //task three
